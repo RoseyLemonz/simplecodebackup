@@ -1,0 +1,32 @@
+
+    Muuttajat (Variables)
+
+int             int16_t         16-Bit  = -32768...+32767
+
+unsigned int    uint16_t        16-Bit  = 0...65536
+
+char            int8_t          8-Bit   = -128...-127
+
+unsigned char   uint8_t         8-Bit   = 0...255
+
+long            int32_t         32-Bit  = ~ -2 Mrd...+2 Mrd (Mrd = Miljardi, Miljardi = Billion (En))
+
+unsigned long   uint32_t        32-Bit  = ~ 0...4 Mrd
+
+--------------------------------------------------------------------------------------
+
+    Liukuluvut = Desimaali luvut (Floating Numbers)
+
+float       32-Bit  +3,4 * 10^38    3,87651
+
+--------------------------------------------------------------------------------------
+
+Boolean muuttaja tyyppi
+
+bool    stop    =false: 0
+                =true:  1
+
+    C-Kielessä arvo
+    0 = false
+    Kaikki muut luvut ovat tosia
+                            (true)
