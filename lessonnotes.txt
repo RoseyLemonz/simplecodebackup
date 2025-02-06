@@ -13,20 +13,48 @@ long            int32_t         32-Bit  = ~ -2 Mrd...+2 Mrd (Mrd = Miljardi, Mil
 
 unsigned long   uint32_t        32-Bit  = ~ 0...4 Mrd
 
---------------------------------------------------------------------------------------
 
-    Liukuluvut = Desimaali luvut (Floating Numbers)
+Liukuluvut = Desimaali luvut (Floating Numbers)
 
 float       32-Bit  +3,4 * 10^38    3,87651
 
---------------------------------------------------------------------------------------
 
-Boolean muuttaja tyyppi
+boolean (bool) muuttaja tyyppi
 
 bool    stop    =false: 0
                 =true:  1
 
-    C-Kielessä arvo
-    0 = false
-    Kaikki muut luvut ovat tosia
-                            (true)
+    C-Kielessä arvo 0 = epätosi (false)
+    Kaikki muut luvut ovat tosia (true)
+
+--------------------------------------------------------------------------------------
+
+    if else -rakenne
+
+if (ehto)
+{
+    suorita, jos on tosi
+}
+else 
+{
+    suorita, jos ei
+}
+
+--------------------------------------------------------------------------------------
+
+    Ehdot
+
+==      yhtäsuuri
+!=      erisuuri
+<       pienempi kuin
+>       suurempi kuin
+<=      pienempi tai yhtäsuuri
+>=      suurempi tai yhtäsuuri
+
+\_______________||_______________/
+                \/
+            Käytetään 
+          \/           \/
+     if (ehto) while (ehto)
+
+--------------------------------------------------------------------------------------
