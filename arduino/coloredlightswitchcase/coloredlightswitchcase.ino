@@ -21,14 +21,22 @@ void setled (uint8_t tila)
 
   switch (tila)
   {
+      // make led red
     case 1:
       digitalWrite(LED_R, HIGH);
       digitalWrite(LED_G, LOW);
       break;
+      // make led green
     case 2:
       digitalWrite(LED_R, LOW);
       digitalWrite(LED_G, HIGH);
       break;
+      // make led orange / yellow
+    case 3:
+      digitalWrite(LED_R, HIGH);
+      digitalWrite(LED_G, HIGH);
+      break;
+      // default to led being off
     default:
       digitalWrite(LED_R, LOW);
       digitalWrite(LED_G, LOW);
@@ -39,7 +47,7 @@ void setled (uint8_t tila)
 
 void loop()
 {
-  for (int i=0; i<3; i++)
+  for (int i=0; i<4; i++)
     {
       setled(i);
       delay(500);
