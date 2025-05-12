@@ -30,7 +30,7 @@ void setup()
   display.setCursor(12, 37);
   display.print("Humi:");
 
-  display.setCursor(76, 4);
+  display.setCursor(76, 4); 
   display.drawCircle(74, 4, 1, 1);
   display.print("C");
 
